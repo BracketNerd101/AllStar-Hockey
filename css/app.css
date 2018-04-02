@@ -4,9 +4,40 @@ body {
 
 .all_star_home_banner {
 
-    background-image: url(../img/nhl_blue_banner.jpg);
-    background-size: cover;
-    height: 45rem;
-    width: 100%;
-    margin-bottom: auto;
+  margin-bottom: 8rem;
+}
+
+
+.primary_button_styles {
+background-color: #1e90ff;
+
+}
+
+.outline_button_styles {
+
+
+}
+
+.tampa_spotlight {
+
+background-color: #1e90ff;
+color: #FFFFFF;
+height:inherit;
+
+
+}
+
+.tampa_spacer {
+
+   margin-top: 10rem;
+   margin-left: 6rem;
+   margin-right: 6rem;
+
+}
+
+.tampa_spacer_button {
+
+   margin-top: 2rem;
+   margin-bottom: 4rem;
+
 }
