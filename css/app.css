@@ -1,3 +1,12 @@
 body {
 
 }
+
+.all_star_home_banner {
+
+    background-image: url(../img/nhl_blue_banner.jpg);
+    background-size: cover;
+    height: 45rem;
+    width: 100%;
+    margin-bottom: auto;
+}
