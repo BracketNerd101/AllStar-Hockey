@@ -7,6 +7,16 @@
   width: 4rem;
 }
 
+.close_button_style {
+
+  color: #FFFFFF;
+}
+
+.close_button_style:hover {
+
+  color: #F2F2F2;
+}
+
 .nav-bar {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -56,10 +66,11 @@
       -ms-flex-pack: center;
           justify-content: center;
   padding: 1.6rem;
-  color: #fefefe;
+  color: #333333;
   text-transform: uppercase;
-  background-color: #566d7c;
-  transition: background-color 0.2s ease-in;
+  background-color: transparent;
+  border: solid 1px #FFF;
+  border-radius: 0px;
   cursor: pointer;
 }
 
@@ -69,7 +80,7 @@
 }
 
 .nav-bar .offcanvas-trigger:hover {
-  background-color: #6b879a;
+  background-color: #F3F3F3;
 }
 
 @media screen and (max-width: 39.9375em) {
@@ -162,4 +173,17 @@
 
 .hamburger .line:last-child {
   margin-bottom: 0;
+}
+
+.ham_style {
+
+  color: #FFFFFF;
+
+
+}
+
+.ham_style:hover {
+
+  transition: 0.2s
+  color: #000000;
 }
