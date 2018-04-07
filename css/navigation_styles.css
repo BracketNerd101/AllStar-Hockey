@@ -2,6 +2,12 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.nav_bg_style {
+
+background-color: rgba(0, 0, 0, 0.5);
+position: fixed;
+}
+
 .logo-size {
 
   width: 4rem;
@@ -30,6 +36,7 @@
   background-color: transparent;
   height: 105px;
   margin-bottom: 75px;
+  background-color: rgba(0,0,0,0.3)	;
 }
 
 .nav-bar .nav-bar-logo {
