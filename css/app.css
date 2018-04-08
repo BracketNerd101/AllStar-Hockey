@@ -4,8 +4,13 @@ body {
 
 .all_star_home_banner {
 
-  margin-bottom: 1rem;
-  margin-top: -12rem;
+  margin-bottom: auto;
+  margin-top: -7rem;
+  background: url(../img/home_banner001.jpg) center / cover no-repeat;
+  height: 30rem;
+  width:100vw;
+
+
 }
 
 
