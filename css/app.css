@@ -2,6 +2,16 @@ body {
 
 }
 
+
+/* Cool Fonts to use
+
+font-family: 'Anton', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Lobster', cursive;
+
+
+*/
+
 .all_star_home_banner {
 
   margin-bottom: auto;
@@ -13,13 +23,21 @@ body {
 
 }
 
+.all_star_home_banner_card {
+
+  margin-top: 12rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #FFFFFF;
+}
 
 .primary_button_styles {
 background-color: #1e90ff;
 
 }
 
-.outline_button_styles {
+.banner_card_button_styles {
+  background-color: #ffffff;
+  color:#333333;
 
 
 }
@@ -65,10 +83,45 @@ height:inherit;
 .banner_card_style {
 
   margin-top: 6rem;
-  
+
+}
+
+.headline_callout {
+
+ font-family: 'Anton', sans-serif;
+
+}
+
+.top_headline_style {
+
+  color: #777777;
+}
+
+.sub-headline_callout {
+
+ font-family: 'Lobster', cursive;
+
 }
 
 /*/////// GLOBAL FOOTER CSS /////////// */
+
+.footer_logo li, a {
+
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #fff;
+
+
+
+}
+
+#footer_logo{
+
+  font-family: 'Anton', sans-serif;
+  color: #fff;
+  font-size: 1.3rem;
+
+
+}
 
 
 .marketing-site-footer {
@@ -86,7 +139,7 @@ height:inherit;
 }
 
 .marketing-site-footer > .row {
-  margin-bottom: 1rem;
+  margin-bottom: auto;
 }
 
 @media screen and (max-width: 39.9375em) {
@@ -111,7 +164,7 @@ height:inherit;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 1rem;
+  margin-bottom: auto;
 }
 
 .marketing-site-footer-block .fa {

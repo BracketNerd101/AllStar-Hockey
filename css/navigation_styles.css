@@ -76,7 +76,6 @@ position: fixed;
   color: #333333;
   text-transform: uppercase;
   background-color: transparent;
-  border: solid 1px #FFF;
   border-radius: 0px;
   cursor: pointer;
 }
@@ -87,7 +86,8 @@ position: fixed;
 }
 
 .nav-bar .offcanvas-trigger:hover {
-  background-color: #F3F3F3;
+  color: green;
+
 }
 
 @media screen and (max-width: 39.9375em) {
