@@ -1,0 +1,27 @@
+
+/* Cool Fonts to use
+
+font-family: 'Anton', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Lobster', cursive;
+
+
+*/
+
+.skills_banner {
+
+  margin-bottom: auto;
+  margin-top: -7rem;
+  background: url(../img/skills_compete.jpg) center / cover no-repeat;
+  height: 30rem;
+  width:100vw;
+
+}
+
+.skills_banner_text {
+
+  font-family: 'Lobster', cursive;
+  color: #FFFFFF;
+  padding-top: 15rem;
+
+}

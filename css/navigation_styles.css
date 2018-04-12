@@ -15,7 +15,7 @@ position: fixed;
 
 .close_button_style {
 
-  color: #FFFFFF;
+  color: #333333;
 }
 
 .close_button_style:hover {
@@ -97,7 +97,7 @@ position: fixed;
 }
 
 .multilevel-offcanvas {
-  background: #222b31;
+  background: #CCCCCC;
   padding: 20px;
   color: #fefefe;
 }
@@ -107,14 +107,14 @@ position: fixed;
 }
 
 .multilevel-offcanvas .menu a {
-  color: rgba(254, 254, 254, 0.6);
+  color: #333333;
   padding-top: 7px;
   padding-bottom: 7px;
   transition: color 0.2s ease-in;
 }
 
 .multilevel-offcanvas .menu a:hover {
-  color: #fefefe;
+  color: #222;
 }
 
 .multilevel-offcanvas .fa {
