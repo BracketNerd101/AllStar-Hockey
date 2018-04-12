@@ -25,3 +25,25 @@ font-family: 'Lobster', cursive;
   padding-top: 15rem;
 
 }
+
+
+.video_section {
+
+height: inherit;
+background-color: #c2d6d6;
+padding-top: 6rem;
+
+}
+
+.parent_nav_container {
+
+
+}
+.sub_card_nav_links li a {
+
+ color:#888888;
+ font-family: 'Anton', sans-serif;
+align-content: center;
+
+
+}
