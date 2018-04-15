@@ -13,7 +13,7 @@ font-family: 'Lobster', cursive;
   margin-bottom: auto;
   margin-top: -7rem;
   background: url(../img/skills_compete.jpg) center / cover no-repeat;
-  height: 30rem;
+  height: 40rem;
   width:100vw;
 
 }
@@ -42,9 +42,20 @@ padding-top: 6rem;
 
 }
 
+
 .parent_nav_container {
 
 margin-top: -6rem;
+
+}
+
+.skills_vid_spacing {
+
+margin-top: 1rem;
+margin-bottom: 1rem;
+margin-left: 1rem;
+margin-right: 1rem;
+
 
 }
 .sub_card_nav_links li a {
