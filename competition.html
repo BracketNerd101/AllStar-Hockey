@@ -54,10 +54,10 @@
       <!-- Nav Begins -
       //////////////////-->
       <div data-sticky-container>
-         <div class="nav-bar nav_bg_style" data-sticky data-sticky-container data-options="marginTop:0;" style="width:100%">
+         <div class="nav-bar expanded nav_bg_style" data-sticky data-sticky-container data-options="marginTop:0;" style="width:100%">
             <div class="nav-bar-left">
-               <a class="nav-bar-logo">
-               <img class="logo-size" src="img/nav_logo.png"></a>
+               <a href="index.html" class="nav-bar-logo h3">
+               NHL</a>
             </div>
             <div class="nav-bar-right float-right">
                <div class="off-canvas-content" data-off-canvas-content>
@@ -82,7 +82,7 @@
       <!-- Nav Ends Here -->
       <div class="row expanded">
          <div id="column large-12" class="skills_banner">
-           <h3 class="skills_banner_text text-center">NHL Skills Competition</h3>
+           <h1 class="skills_banner_text text-center">NHL Skills Competition</h1>
          </div><!-- end of large container -->
       </div><!-- end of row container -->
       <!--End of Banner Home  -->
@@ -91,14 +91,15 @@
           <div class="card radius shadow parent_nav_container">
             <div class="card-section text-center text-center">
               <p class="h4 text-center padding-top-2 padding-bottom-2 skills_banner_text_menu secondary">Navigate to your favorite competition</p>
+              <hr>
               <div class="menu-centered">
-                <ul class="menu sub_card_nav_links">
-                  <li><a href="#">Fastes Skater</a></li>
-                  <li><a href="#">Shooting Accuracy</a></li>
-                  <li><a href="#">Passing Accuracy</a></li>
-                  <li><a href="#">Hardest Shot</a></li>
-                  <li><a href="#">Puck Handling</a></li>
-                  <li><a href="#">Longest Save Streak</a></li>
+                <ul class="menu sub_card_nav_links" data-magellan>
+                  <li><a href="#first">Fastes Skater</a></li>
+                  <li><a href="#second">Shooting Accuracy</a></li>
+                  <li><a href="#third">Passing Accuracy</a></li>
+                  <li><a href="#four">Hardest Shot</a></li>
+                  <li><a href="#five">Puck Handling</a></li>
+                  <li><a href="#six">Longest Save Streak</a></li>
                 </ul>
               </div><!-- end of menu centered container -->
             </div><!-- end of card -->
@@ -106,40 +107,56 @@
         </div><!-- end of column div -->
       </div><!-- end of outter row -->
 
-
       <!-- Start to the competition section. block grid -->
-      <div class="row expanded video_section">
-          <div class="skills_vid_spacing columns small-12 medium-4 large-4 responsive-embed widescreen">
-            <iframe width="200" height="200" src="https://www.youtube.com/embed/g_GgwaHnSaw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen ></iframe>
-            <p class="h6">Fastest Skater</p>
+      <div class="row expanded video_section sections">
+          <div class="columns small-12 medium-6 large-6 margin-bottom-3 widescreen">
+            <div id="first" data-magellan-target="first" class="expanded small-12">
+              <iframe width="100%" height="300" src="https://www.youtube.com/embed/Q6ejrSLFnYw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen ></iframe>
+              <p class="h6">Fastest Skater</p>
+            </div>
           </div>
-          <div class="skills_vid_spacing columns small-12 medium-4 large-4 responsive-embed widescreen">
-            <iframe width="854" height="480" src="https://www.youtube.com/embed/g_GgwaHnSaw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <div id="second" data-magellan-target="second" class="columns small-12 medium-6 large-6 margin-bottom-3 widescreen">
+            <div class="expanded small-12">
+              <iframe width="100%" height="300" src="https://www.youtube.com/embed/g_GgwaHnSaw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen ></iframe>
+            </div>
+           <!--  -->
+            <p class="h6">Shooting Accuracy</p>
+          </div>
+          <!--  -->
+          <div id="third" data-magellan-target="third" class="columns small-12 medium-6 large-6 margin-bottom-3 widescreen">
+            <div class="expanded small-12">
+              <iframe width="100%" height="300" src="https://www.youtube.com/embed/Wumj5JqGEAc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen ></iframe>
+            </div>
+           <!--  -->
+            <p class="h6">Passing Accuracy</p>
+          </div>
+          <!--  -->
+
+          <div id="save" data-magellan-target="four" class="columns small-12 medium-6 large-6 margin-bottom-3 widescreen">
+            <div class="expanded small-12">
+              <iframe width="100%" height="300" src="https://www.youtube.com/embed/97dAoBTCLdg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen ></iframe>
+            </div>
+           <!--  -->
+            <p class="h6">Longest Save Streak</p>
+          </div>
+          <!--  -->
+          <div id="five" data-magellan-target="five" class="columns small-12 medium-6 large-6 margin-bottom-3 widescreen">
+            <div class="expanded small-12 widescreen">
+              <iframe width="100%" height="300" src="https://www.youtube.com/embed/vM9-zZqXUIw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen ></iframe>
+            </div>
+           <!--  -->
+            <p class="h6">Puck Handleing</p>
+          </div>
+          <!--  -->
+          <div id="six" data-magellan-target="six" class="columns small-12 medium-6 large-6 margin-bottom-3 widescreen">
+            <div class="expanded small-12">
+              <iframe width="100%" height="300" src="https://www.youtube.com/embed/8kBJuxAO6o8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen ></iframe>
+            </div>
            <!--  -->
             <p class="h6">Hardest Shot</p>
           </div>
           <!--  -->
-          <div class="skills_vid_spacing columns small-12 medium-4 large-4 widescreen">
-            <iframe width="854" height="480" src="https://www.youtube.com/embed/g_GgwaHnSaw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-           <!--  -->
-           <!--  -->
-            <p class="h6">Puck Handling</p>
-          </div>
-          <!--  -->
       </div> <!--  end of row -->
-
-      <div class="row video_section">
-        <div class="columns small-12 medium-6 large-4 widescreen">
-
-          <p class="h6">Longest Save Streak</p>
-        </div>
-        <div class="column small-12 medium-6 large-4 widescreen">
-
-          <p class="h6">3 vs 3 Tournament</p>
-        </div>
-      </div>
-
-
       <!-- end of section  -->
       <!-- FOOTER STARTS HERE /////////////////////////////////////////////////////////-->
       <footer class="marketing-site-footer">
