@@ -26,17 +26,25 @@ font-family: 'Lobster', cursive;
 
 }
 
+.skills_banner_text_menu {
+
+  font-family: 'Lobster', cursive;
+  color: #777777;
+
+
+}
+
 
 .video_section {
 
 height: inherit;
-background-color: #c2d6d6;
 padding-top: 6rem;
 
 }
 
 .parent_nav_container {
 
+margin-top: -6rem;
 
 }
 .sub_card_nav_links li a {
