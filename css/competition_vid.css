@@ -30,20 +30,30 @@ font-family: 'Lobster', cursive;
 .video_section {
 
 height: inherit;
-background-color: #c2d6d6;
+/* background-color: #c2d6d6; */
 padding-top: 6rem;
 
 }
 
+.sub_card_header {
+
+  margin-top: 6rem;
+}
 .parent_nav_container {
 
+  margin-top: -4rem;
 
+
+}
+
+#card_menu {
+
+  align-content: center;
 }
 .sub_card_nav_links li a {
 
  color:#888888;
  font-family: 'Anton', sans-serif;
-align-content: center;
 
 
 }
